@@ -47,9 +47,9 @@ button.addEventListener('click', function(){
             window.minTemp.innerHTML= `${minTemp}<sup>°</sup>`
             window.maxTemp.innerHTML= `${maxTemp}<sup>°</sup>`
 
-            window.wind.innerHTML= wind;
-            window.humidity.innerHTML= humidity;
-            window.pressure.innerHTML= pressure;
+            window.wind.innerHTML= `wind ${wind}`;
+            window.humidity.innerHTML= `humidity ${humidity}`;
+            window.pressure.innerHTML= `pressure ${pressure}`;
             window.icon.src= iconSrc;
 
         })
